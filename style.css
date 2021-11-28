@@ -1,0 +1,132 @@
+@import <url>('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+* {
+    background-color: black;
+    color: orangered;
+    font-family: 'Crimson Pro', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.75em;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    padding-left: 7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: gray;
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+header {
+    padding: 1rem;
+    padding-right: 6em;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: orangered;
+}
+
+.header__img {
+    max-width: 400px;
+}
+
+.catchphrase {
+    text-size-adjust: larger;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    height: 40%;
+    background-color: orangered;
+
+}
+
+nav a {
+    line-height: 1.75em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: .5em;
+    background-color: orangered;
+    color: black;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+li {
+    padding-left: 1em;
+}
+
+ul {
+    padding-left: 2em;
+}
+
+p.signature {
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+    padding: 1em;
+}
+
+h2 {
+    box-sizing: border-box;
+    border-radius: 2em;
+    max-width: 7em;
+    -webkit-box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
+    box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
+    padding-left: 1em;
+    background-color: #4d4d4d;
+    color: orangered;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: auto;
+    padding: 2em;
+    grid-column-gap: .5em;
+}
+
+img.comingSoon {
+    max-width: 400px;
+}
+
+img.amokPets {
+    max-width: 400px;
+}
+
+img.shelterPets {
+    max-width: 400px;
+}
+
+img.messyPet {
+    max-width: 400px;
+}
+
+#skillsList {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 100px);
+    align-content: center;
+    /* justify-content: center; */
+}
