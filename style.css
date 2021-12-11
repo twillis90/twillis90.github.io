@@ -161,7 +161,7 @@ img.messyPet {
     *{
         font-family: 'Crimson Pro', serif;
         box-sizing: border-box;
-        margin: 10%;
+        margin: 0;
         padding: 0;
         line-height: 2rem;
         color: orangered;
@@ -175,7 +175,8 @@ img.messyPet {
         display: flex;
         flex-flow: column;
         background-color: #155263;
-        padding-top: 3rem;    
+        padding-top: 3rem;   
+        padding-left: 1rem; 
     }
     
     a {
