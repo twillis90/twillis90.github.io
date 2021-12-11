@@ -107,8 +107,6 @@ h2 {
     box-sizing: border-box;
     border-radius: 2em;
     max-width: 6em;
-    -webkit-box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
-    box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
     padding-right: .5rem;
     padding-left: .5rem;
     background-color: #40a8c4;
@@ -163,7 +161,7 @@ img.messyPet {
     *{
         font-family: 'Crimson Pro', serif;
         box-sizing: border-box;
-        margin: 5%;
+        margin: 10%;
         padding: 0;
         line-height: 2rem;
         color: orangered;
@@ -259,8 +257,6 @@ img.messyPet {
         box-sizing: border-box;
         border-radius: 2em;
         max-width: 6em;
-        -webkit-box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
-        box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
         padding-right: .5rem;
         padding-left: .5rem;
         background-color: #40a8c4;
