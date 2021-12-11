@@ -194,18 +194,17 @@ img.messyPet {
         padding: 1rem;
         padding-bottom: 2em;
         display: flex;
-        flex-flow: row;
+        flex-flow: column;
         justify-content: center;
     
     }
     
     .header__img {
-        max-width: 80%;
+        max-width: 90%;
         background-image: repeating-radial-gradient(circle, #155263, deepskyblue, #ff6f3c, #ff9a3c, #ffc93c);
     }
     
     .catchphrase {
-        text-size-adjust: larger;
         padding: 5%;
     }
     
