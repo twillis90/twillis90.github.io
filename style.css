@@ -176,8 +176,7 @@ img.messyPet {
         flex-flow: column;
         background-color: #155263;
         padding-top: 3rem;   
-        padding-left: 1rem; 
-    }
+        }
     
     a {
         text-decoration: none;
