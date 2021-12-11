@@ -107,8 +107,8 @@ h2 {
     box-sizing: border-box;
     border-radius: 2em;
     max-width: 6em;
-    -webkit-box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
-    box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
+    -webkit-box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
+    box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
     padding-right: .5rem;
     padding-left: .5rem;
     background-color: #40a8c4;
@@ -170,7 +170,7 @@ img.messyPet {
     }
     
     html {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     body {
@@ -259,8 +259,8 @@ img.messyPet {
         box-sizing: border-box;
         border-radius: 2em;
         max-width: 6em;
-        -webkit-box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
-        box-shadow: 9px 9px 12px 8px rgba(255, 173, 18, 0.5);
+        -webkit-box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
+        box-shadow: 9px 9px 9px 8px rgba(255, 173, 18, 0.5);
         padding-right: .5rem;
         padding-left: .5rem;
         background-color: #40a8c4;
