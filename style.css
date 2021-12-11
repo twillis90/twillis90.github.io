@@ -3,7 +3,7 @@
 @-ms-viewport {
     width: device-width;
 }
-@media screen and (max-width:1500px){
+@media screen and (min-width:501px){
 
 
 * {
@@ -24,7 +24,7 @@ body {
     background-color: #155263;
     margin-right: 15%;
     margin-left: 15%;
-    padding-left: 2rem;
+    padding-left: .5rem;
 
 }
 
@@ -150,6 +150,7 @@ img.messyPet {
     grid-template-rows: repeat(4, 25%);
     padding-bottom: 3rem;
     padding-top: 1rem;
+    text-decoration: none;
 }
 
 #getintouch {
