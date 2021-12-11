@@ -3,11 +3,14 @@
 @-ms-viewport {
     width: device-width;
 }
+@media screen and (max-width:1169px){
+}
 
 * {
     font-family: 'Crimson Pro', serif;
     box-sizing: border-box;
     margin: 0;
+    text-align: center;
     padding: 0;
     line-height: 2rem;
     color: orangered;
@@ -19,8 +22,8 @@ html {
 
 body {
     background-color: #155263;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
     padding-left: 2rem;
 
 }
@@ -74,11 +77,11 @@ nav {
 }
 
 nav a {
-    line-height: 1.75em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 1em;
-    padding-left: .5em;
+    line-height: 1.75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 1rem;
+    padding-left: .5rem;
     background-color: #ff6f3c;
     color: black;
     justify-content: space-between;
@@ -143,12 +146,12 @@ img.messyPet {
 
 #skillsList {
     display: grid;
-    grid-template-columns: repeat(3, 50%);
+    grid-template-columns: repeat(3, 40%);
     grid-template-rows: repeat(4, 25%);
     padding-bottom: 3rem;
     padding-top: 1rem;
 }
 
 #getintouch {
-    text-align-last: center;
+    text-align-last: left;
 }
