@@ -3,7 +3,7 @@
 @-ms-viewport {
     width: device-width;
 }
-@media screen and (max-width:1191px){
+@media screen and (max-width:1500px){
 
 
 * {
@@ -129,15 +129,15 @@ h2 {
 } */
 
 img.amokPets {
-    max-width: 200px;
+    max-width: 90%;
 }
 
 img.shelterPets {
-    max-width: 200px;
+    max-width: 90%;
 }
 
 img.messyPet {
-    max-width: 200px;
+    max-width: 90%;
 }
 
 #skill__list {
