@@ -240,10 +240,12 @@ img.messyPet {
     }
     
     li {
+        justify-items: left;
         padding-left: 1rem;
     }
     
     ul {
+        justify-items: left;
         padding-left: 1rem;
     }
     
@@ -268,7 +270,7 @@ img.messyPet {
     #projects {
         display: flex;
         flex-direction: column;
-        padding: 2rem;
+        padding: 3rem;
     }
     
     /* img.comingSoon {
