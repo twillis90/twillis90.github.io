@@ -163,7 +163,7 @@
         font-family: 'Crimson Pro', serif;
         box-sizing: border-box;
         margin: 0;
-        padding: 0;
+        padding: 10px;
         line-height: 2rem;
         color: orangered;
     }
