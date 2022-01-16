@@ -15,10 +15,11 @@
         padding: 0;
         line-height: 2rem;
         color: orangered;
+        margin-bottom: 2rem;
     }
 
     html {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     body {
@@ -47,11 +48,12 @@
         display: flex;
         flex-flow: row;
         justify-content: center;
+        font-size: 24px;
 
     }
 
     .header__img {
-        max-width: 60%;
+        max-width: 50%;
         background-image: repeating-radial-gradient(circle, #155263, deepskyblue, #ff6f3c, #ff9a3c, #ffc93c);
     }
 
@@ -116,27 +118,22 @@
 
     #projects {
         display: grid;
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: auto;
+        grid-template-columns: repeat(4, 1fr);
         padding-right: 1rem;
         grid-column-gap: 1rem;
         padding-bottom: 2rem;
     }
 
-    /* img.comingSoon {
-    max-width: 30%;
-} */
-
     img.amokPets {
-        max-width: 90%;
+        max-width: 250px;
     }
 
     img.shelterPets {
-        max-width: 90%;
+        max-width: 150px;
     }
 
     img.messyPet {
-        max-width: 90%;
+        max-width: 300px;
     }
 
     #skill__list {
@@ -154,6 +151,7 @@
 
     #getintouch {
         text-align-last: left;
+        padding-bottom: 2rem;
     }
 }
 
@@ -169,7 +167,7 @@
     }
 
     html {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     body {
