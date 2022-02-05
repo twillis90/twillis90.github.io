@@ -53,7 +53,7 @@
     }
 
     .header__img {
-        max-width: 50%;
+        max-width: 40%;
         background-image: repeating-radial-gradient(circle, #155263, deepskyblue, #ff6f3c, #ff9a3c, #ffc93c);
     }
 
@@ -94,6 +94,7 @@
 
     li {
         padding-left: 1rem;
+        list-style: none;
     }
 
     ul {
@@ -129,11 +130,11 @@
     }
 
     img.shelterPets {
-        max-width: 150px;
+        max-width: 250px;
     }
 
     img.messyPet {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     #skill__list {
