@@ -14,7 +14,6 @@
         text-align: center;
         padding: 0;
         line-height: 2rem;
-        color: orangered;
         margin-bottom: 2rem;
     }
 
@@ -23,7 +22,7 @@
     }
 
     body {
-        background-color: #155263;
+        background-color: #34d5eb;
         margin-right: 15%;
         margin-left: 15%;
         padding-left: .5rem;
@@ -33,6 +32,7 @@
     a {
         text-decoration: none;
         color: orangered;
+        font-weight: bolder;
     }
 
     a:hover {
@@ -53,7 +53,7 @@
     }
 
     .header__img {
-        max-width: 40%;
+        max-width: 50%;
         background-image: repeating-radial-gradient(circle, #155263, deepskyblue, #ff6f3c, #ff9a3c, #ffc93c);
     }
 
@@ -107,38 +107,46 @@
         padding: 1em;
     }
 
+    main{
+        background-color: #7E7F83;
+        box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 9px 11px 9px rgba(0,0,0,0);
+        padding: 2%;
+        max-width: 95%;
+        color: #000;
+    }
+
     h2 {
         box-sizing: border-box;
         border-radius: 2em;
         max-width: 6em;
-        padding-right: .5rem;
-        padding-left: .5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
         background-color: #40a8c4;
         color: black;
     }
 
     #projects {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding-right: 1rem;
         grid-column-gap: 1rem;
         padding-bottom: 2rem;
     }
 
     img.amokPets {
-        max-width: 250px;
+        max-width: 95%;
     }
 
     img.shelterPets {
-        max-width: 250px;
+        max-width: 95%;
     }
 
     img.messyPet {
-        max-width: 250px;
+        max-width: 300px;
     }
 
     #skill__list {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     #skillsList {
@@ -152,7 +160,7 @@
 
     #getintouch {
         text-align-last: left;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -164,7 +172,6 @@
         margin: 0;
         padding: 10px;
         line-height: 2rem;
-        color: orangered;
     }
 
     html {
@@ -174,8 +181,9 @@
     body {
         display: flex;
         flex-flow: column;
-        background-color: #155263;
+        background-color: #34d5eb;
         padding-top: 3rem;
+        text-decoration: none;
     }
 
     a {
@@ -199,7 +207,7 @@
     }
 
     .header__img {
-        max-width: 100%;
+        max-width: 80%;
         background-image: repeating-radial-gradient(circle, #155263, deepskyblue, #ff6f3c, #ff9a3c, #ffc93c);
     }
 
@@ -233,17 +241,19 @@
         background-color: #ff6f3c;
         color: black;
         align-content: space-between;
-
+        text-decoration: none;
     }
 
     li {
         justify-items: left;
         padding-left: 1rem;
+        text-decoration: none;
     }
 
     ul {
         justify-items: left;
         padding-left: 1rem;
+        text-decoration: none;
     }
 
     p.signature {
@@ -257,35 +267,40 @@
         border-radius: 2em;
         max-width: 6em;
         padding-right: .5rem;
-        padding-left: .5rem;
+        padding-left: 1rem;
         background-color: #40a8c4;
         color: black;
+    }
+
+    main{
+        background-color: #7E7F83;
+        box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 9px 11px 9px rgba(0,0,0,0);
+        padding: 2%;
+        max-width: 95%;
+        color: #000;
     }
 
     #projects {
         display: flex;
         flex-direction: column;
-        padding: 3rem;
+        padding: 2rem;
     }
 
-    /* img.comingSoon {
-        max-width: 30%;
-    } */
-
     img.amokPets {
-        max-width: 200px;
+        max-width: 95%;
     }
 
     img.shelterPets {
-        max-width: 200px;
+        max-width: 95%;
     }
 
     img.messyPet {
-        max-width: 200px;
+        max-width: 95%;
     }
 
     #skill__list {
         padding: 2rem;
+        text-decoration: none;
     }
 
     #skillsList {
@@ -293,9 +308,11 @@
         flex-direction: column;
         padding: 2rem;
         text-align: left;
+        text-decoration: none;
     }
 
     #getintouch {
         text-align-last: left;
+        text-decoration: none;
     }
 }
